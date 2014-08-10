@@ -25,8 +25,10 @@
 .result .btns {
 	text-align: center;
 }
-.result .btns+p {
+.result .share-text {
 	margin-top: 10px;
+	text-align: center;
+	color: rgb(241, 129, 24);
 }
 .btn-primary:hover {
   color: #fff !important;
