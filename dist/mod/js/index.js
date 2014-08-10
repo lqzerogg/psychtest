@@ -1,7 +1,7 @@
 Zepto(function($) {
 	var questionTpl = doT.compile([
 		'{{~it.datas :q:k}}',
-		'<div class="question-wrapper col-md-6 col-md-offset-3 {{?!q.show}}hide{{?}}" id="num-{{=q.num}}">',
+		'<div class="question-wrapper col-md-6 col-md-offset-3 hide" id="num-{{=q.num}}">',
     			'<p class="question">',
     				'{{=q.question}}',
     			'</p>',
@@ -34,7 +34,6 @@ Zepto(function($) {
 				num: index + 1,
 				question: item,
 				ad: '/img/bread_' + (index % 9) + '.png',
-				show: index === 0,
 				btns: []
 			},
 			reg = /\d/;
@@ -82,6 +81,11 @@ Zepto(function($) {
 	.on('click', '.btn-test-again', function(e) {
 		$('#result').addClass('hide');
 		$('#num-1').removeClass('hide');
+	})
+	//开始测试
+	.on('click', '.btn-start', function(e) {
+		$('#num-1').removeClass('hide');
+		$('#start').addClass('hide');
 	});
 });
 
@@ -90,7 +94,7 @@ WeixinApi.ready(function(Api) {
     // 微信分享的数据
     var wxData = {
         "appId": "", // 服务号可以填写appId
-        "imgUrl" : 'http://182.92.193.153:4000/img/avatar.png',
+        "imgUrl" : 'http://182.92.193.153:4000/img/avatar.png?time=4',
         "link" : 'http://182.92.193.153:4000',
         "desc" : '三分钟测出你和软妹子的直接距离！！！准到爆！！！',
         "title" : "软妹子测试"

@@ -4,7 +4,7 @@
     <title>{{ title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8">
-    <link rel='stylesheet' href='/css/index.css?time=3' />
+    <link rel='stylesheet' href='/css/index.css?time=4' />
 
   </head>
   <body>
@@ -14,7 +14,17 @@
     			<p>三分钟测出你和软妹子的直接距离！！！准到爆！！！</p>
     		</div>
     	</div>
-    	<div id="content" class="row content">    		
+    	<div id="content" class="row content"> 
+    		<div class="start col-md-6 col-md-offset-3" id="start">    			
+    			<p class="desc">软妹子，是最近ACG网络界里特别流行的一个词儿，形容那种温柔似水，单纯善良的女生。这一类女生跟水似的，让人看了就想要保护，就想要让她获得幸福。而与此相对的，就是生性彪悍，或泼辣或果敢的硬妹子。但有的人外表看来是软妹子，其实内心纯正的“汉子”，反之亦然。你呢，你本质是软妹子还是硬妹子？</p>
+    			<div class="btns">
+	    			<button type="button" class="btn-start btn btn-primary btn-lg">开始测试</button>
+    				   				
+    			</div>    			
+    			<div class="ad">
+    				<img src="/img/avatar.png" alt="面包">
+    			</div>
+    		</div>   		
     		<div class="result col-md-6 col-md-offset-3 hide" id="result">
     			<p class="caption text-success"></p>
     			<p class="desc"></p>
@@ -33,7 +43,7 @@
     	</div>    	
     </div>
     <script type="text/javascript" src="http://www.baidufe.com/fe/base/static/js/weixin-api/weixin-api.js"></script>
-    <script type="text/javascript" src="/js/index.js?time=3">
+    <script type="text/javascript" src="/js/index.js?time=4">
     </script>
   </body>
 </html>
