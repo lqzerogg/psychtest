@@ -32,7 +32,7 @@ Zepto(function($) {
 			data = {
 				num: index + 1,
 				question: item,
-				ad: '/img/bread_' + (index % 9) + '.jpg',
+				ad: '/img/bread_' + (index % 9) + '.png',
 				show: index === 0,
 				btns: []
 			},
@@ -57,7 +57,7 @@ Zepto(function($) {
 		}else {
 			$wrapper = $this.closest('.question-wrapper').addClass('hide');
 			result = results[rslMapping[target]].split(',');
-			
+
 			$('#result').removeClass('hide')
 			.find('.caption').html(result[0]);
 
