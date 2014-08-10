@@ -1,0 +1,24 @@
+.tip {
+	margin-top: 20px;
+}
+.tip p {
+	color: rgb(153, 153, 153);
+}
+.question {
+	font-size: 1.8rem;
+}
+.ad {
+	margin-top: 2rem;
+}
+.ad img {
+	max-width: 100%;	
+}
+.answer .btn-block {
+	text-align: left;
+}
+.answer .btn-back {
+	margin-top: 5px;
+}
+.caption {
+	font-size: 3rem;
+}

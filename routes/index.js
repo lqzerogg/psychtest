@@ -5,5 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
+/* GET users listing. */
+router.get('/outcome', function(req, res) {
+  res.render('outcome', { title: 'Express' });
+});
 
 module.exports = router;
