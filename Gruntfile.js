@@ -6,7 +6,7 @@ module.exports = function(grunt) {      // Project configuration.
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-concat');
     // grunt.loadNpmTasks('grunt-contrib-requirejs');
-    // grunt.registerTask('default', ['copy:jsLib', 'copy:production', 'uglify']);
+    grunt.registerTask('default', ['concat', 'copy', 'uglify', 'sass']);
 
 
 
