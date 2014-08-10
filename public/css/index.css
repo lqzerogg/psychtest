@@ -6228,6 +6228,9 @@ button.close {
 .result .btns {
 	text-align: center;
 }
+.result .btns+p {
+	margin-top: 10px;
+}
 .btn-primary:hover {
   color: #fff !important;
   background-color: #428bca !important;
