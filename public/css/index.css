@@ -6228,3 +6228,8 @@ button.close {
 .result .btns {
 	text-align: center;
 }
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #428bca !important;
+  border-color: #357ebd !important;
+}

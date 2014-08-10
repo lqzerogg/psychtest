@@ -4,7 +4,7 @@
     <title>{{ title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8">
-    <link rel='stylesheet' href='/css/index.css' />
+    <link rel='stylesheet' href='/css/index.css?time=1' />
 
   </head>
   <body>
@@ -16,18 +16,21 @@
     	</div>
     	<div id="content" class="row content">    		
     		<div class="result col-md-6 col-md-offset-3 hide" id="result">
-    			<p class="caption"></p>
+    			<p class="caption text-info"></p>
     			<p class="desc"></p>
     			<div class="btns">
 	    			<button type="button" class="btn-share btn btn-primary btn-lg">分享到朋友圈</button>
     				<button type="button" class="btn btn-primary btn-lg btn-test-again">再测一次</button>    				
+    			</div>
+    			<div class="ad">
+    				<img src="" alt="面包">
     			</div>
     		</div>
     		
     	</div>    	
     </div>
     <script type="text/javascript" src="http://www.baidufe.com/fe/base/static/js/weixin-api/weixin-api.js"></script>
-    <script type="text/javascript" src="/js/index.js">
+    <script type="text/javascript" src="/js/index.js?time=1">
     </script>
   </body>
 </html>
