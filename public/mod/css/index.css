@@ -17,6 +17,10 @@
 .question {
 	font-size: 1.8rem;
 }
+p.desc {
+	word-break: break-all;
+	word-wrap: break-word;
+}
 .ad {
 	margin: 2rem auto;
 }
