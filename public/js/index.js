@@ -1440,7 +1440,7 @@ Zepto(function($) {
 	})
 	//分享
 	.on('click', '.btn-share', function(e) {
-		alert('点击右上角的··· 然后分享到朋友圈或者发送给您的朋友吧');
+		$('#share').removeClass('hide');
 	})
 	//重新测试
 	.on('click', '.btn-test-again', function(e) {
@@ -1451,6 +1451,10 @@ Zepto(function($) {
 	.on('click', '.btn-start', function(e) {
 		$('#num-1').removeClass('hide');
 		$('#start').addClass('hide');
+	});
+
+	$('#share').on('click', function(e) {
+		$(this).addClass('hide');
 	});
 });
 

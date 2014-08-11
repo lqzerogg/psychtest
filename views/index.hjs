@@ -8,6 +8,9 @@
 
   </head>
   <body>
+  	<div class="share hide" id="share">
+  		
+  	</div>
     <div class="container-fluid">
     	<div class="row tip">
     		<div class="col-md-6 col-md-offset-3">
@@ -28,13 +31,13 @@
     		<div class="result col-md-6 col-md-offset-3 hide" id="result">
     			<p class="caption text-success"></p>
     			<p class="desc"></p>
-    			<!-- <div class="btns">
+    			<div class="btns">
 	    			<button type="button" class="btn-share btn btn-primary btn-lg">分享到朋友圈</button>
-    				<button type="button" class="btn btn-primary btn-lg btn-test-again">再测一次</button>    				
-    			</div> -->
-    			<p class="share-text">
+    				<!-- <button type="button" class="btn btn-primary btn-lg btn-test-again">再测一次</button>  -->   				
+    			</div>
+    			<!-- <p class="share-text">
     				赶紧把你的结果分享给你的好友吧！
-    			</p>
+    			</p> -->
     			<div class="ad">
     				<img src="" alt="面包">
     			</div>
