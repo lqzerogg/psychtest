@@ -98,8 +98,8 @@ WeixinApi.ready(function(Api) {
     // 微信分享的数据
     var wxData = {
         "appId": "", // 服务号可以填写appId
-        "imgUrl" : 'http://www.notanumber.cn:4000/img/avatar.png?time=4',
-        "link" : 'http://www.notanumber.cn:4000',
+        "imgUrl" : 'http://182.92.193.153:4000/img/avatar.png?time=4',
+        "link" : 'http://182.92.193.153:4000',
         "desc" : '三分钟测出你和软妹子的直接距离！！！准到爆！！！',
         "title" : "软妹子测试"
     };
