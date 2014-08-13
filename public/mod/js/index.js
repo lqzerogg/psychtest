@@ -64,7 +64,7 @@ Zepto(function($) {
 
 			$('#result').find('.desc').html(result[1]);
 			$('#result').find('.ad img').attr('src', '/img/bread_' + ((new Date()).getTime() % 8) + '.jpg');
-			window.shareText = '【软妹子测试】我居然是个 ' + result[0];
+			window.shareText = '【软妹子测试！准到爆！！！】我居然是个 ' + result[0];
 		}
 	})
 	//上一题
@@ -101,7 +101,7 @@ WeixinApi.ready(function(Api) {
         "imgUrl" : 'http://182.92.193.153:4000/img/avatar.png?time=4',
         "link" : 'http://182.92.193.153:4000',
         "desc" : '三分钟测出你和软妹子的直接距离！！！准到爆！！！',
-        "title" : "软妹子测试"
+        "title" : "软妹子测试！准到爆！！！"
     };
 
     // 分享的回调
