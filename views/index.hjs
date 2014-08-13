@@ -4,7 +4,7 @@
     <title>{{ title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta charset="utf-8">
-    <link rel='stylesheet' href='/css/index.css?time=6' />
+    <link rel='stylesheet' href='/css/index.css?time=7' />
 
   </head>
   <body>
@@ -46,7 +46,7 @@
     	</div>    	
     </div>
     <script type="text/javascript" src="http://www.baidufe.com/fe/base/static/js/weixin-api/weixin-api.js"></script>
-    <script type="text/javascript" src="/js/index.js?time=6">
+    <script type="text/javascript" src="/js/index.js?time=7">
     </script>
   </body>
 </html>
