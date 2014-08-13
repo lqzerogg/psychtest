@@ -64,7 +64,7 @@ Zepto(function($) {
 
 			$('#result').find('.desc').html(result[1]);
 			$('#result').find('.ad img').attr('src', '/img/bread_' + ((new Date()).getTime() % 8) + '.jpg');
-			window.shareText = '【软妹子测试！准到爆！！！】我居然是个 ' + result[0];
+			window.shareText = '【软妹子测试】我居然是个 ' + result[0];
 		}
 	})
 	//上一题
