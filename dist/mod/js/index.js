@@ -33,7 +33,7 @@ Zepto(function($) {
 			data = {
 				num: index + 1,
 				question: item,
-				ad: '/img/bread_' + (index % 9) + '.png',
+				ad: '/img/bread_' + (index % 8) + '.jpg',
 				btns: []
 			},
 			reg = /\d/;
@@ -63,7 +63,7 @@ Zepto(function($) {
 			.find('.caption').html(result[0]);
 
 			$('#result').find('.desc').html(result[1]);
-			$('#result').find('.ad img').attr('src', '/img/bread_' + ((new Date()).getTime() % 9) + '.png');
+			$('#result').find('.ad img').attr('src', '/img/bread_' + ((new Date()).getTime() % 8) + '.jpg');
 			window.shareText = '【软妹子测试】我居然是个 ' + result[0];
 		}
 	})
